@@ -29,7 +29,7 @@
         <div class="container">
             <div class="bottom-inner">
                 <nav class="navbar navbar-expand-lg">
-                    <a class="logo" href="#"><img src="<?php echo get_stylesheet_directory_uri()?>/images/logo.png"  alt=""></a>
+                    <a class="logo" href="http://localhost/Shopat"><img src="<?php echo get_stylesheet_directory_uri()?>/images/logo.png"  alt=""></a>
                     <button class="navbar-toggler fa fa-bars" aria-hidden="true" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     </button>
                   

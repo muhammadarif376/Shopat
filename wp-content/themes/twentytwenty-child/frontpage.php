@@ -19,7 +19,7 @@ get_header(); ?>
                                     <div class="item-info">
                                         <p><?php the_field('description_text'); ?></p>
                                     </div>
-                                    <a href="#">View all Categories</a>
+                                    <a href="/jewelry">View all Categories</a>
                                 </div>
                             </div>
                             <div class="col-md-7 order-0 order-md-1">
@@ -31,7 +31,9 @@ get_header(); ?>
                                     </div>
                                     <?php } ?>
                                 </div>
-                                <?php } ?> 
+                                <?php }
+                                  wp_reset_query();
+                                   ?> 
                             </div>
                         </div>
                     </div>
@@ -110,7 +112,7 @@ get_header(); ?>
                                     <div class="item-info">
                                         <p><?php the_field('description_text_okhtein'); ?></p>
                                     </div>
-                                    <a href="#">View all Categories</a>
+                                    <a href="/bags">View all Categories</a>
                                 </div>
                             </div>
                         </div>
