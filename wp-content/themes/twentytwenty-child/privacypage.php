@@ -18,7 +18,7 @@ get_header(); ?>
                             <h2>Privacy Policy</h2>
                         </div>
                         <div class="details">
-                        <p><?php the_field('privacy_content'); ?></p>
+                        <p><?php the_field('privacy_and_shiping_content'); ?></p>
                         </div>
                     </div>
                 </div>

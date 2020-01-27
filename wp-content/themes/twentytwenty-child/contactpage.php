@@ -19,7 +19,12 @@ get_header(); ?>
                         </div>
                         <div class="details">
                             <p><?php the_field('contact_and_faqs_text'); ?></p>
-                            <p>Phone number: <a href="tel:"><?php the_field('contact_number'); ?></a></p>
+                            <?php 
+                                $field = get_field_object('contact_number');
+                                $prepend = $field['prepend'];
+                                $value = $field['value'];
+                            ?>
+                            <p>Phone number: <a href="tel:"><?php echo $prepend.$value; ?></a></p>
                             <p>For all general and customer service inquiries: <a href="mailto:"><?php the_field('contact_email'); ?></a></p>
                         </div>
                     </div>

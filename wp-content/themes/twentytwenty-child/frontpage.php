@@ -61,7 +61,7 @@ get_header(); ?>
                             $loop->the_post();
                            ?>
                             <div class="col-md-4 col-6">
-                                <a href="#" class="product-card">
+                                <a href="<?php the_permalink(); ?>" class="product-card">
                                     <div class="card-inner">
                                         <div class="product-image">
                                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
@@ -138,7 +138,7 @@ get_header(); ?>
                             $loop->the_post();
                            ?>
                             <div class="col-md-4 col-6">
-                                <a href="#" class="product-card">
+                                <a href="<?php the_permalink(); ?>" class="product-card">
                                     <div class="card-inner">
                                         <div class="product-image">
                                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
